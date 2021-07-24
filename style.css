@@ -1,0 +1,71 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #top-input {
+            display: none;
+        }
+
+        body>div {
+            margin-top: 120px;
+            margin-left: 21.7%;
+        }
+
+        input {
+            width: 200px;
+            height: 30px;
+            margin-left: 0.6%;
+            padding-left: 10px;
+            border: none;
+            box-shadow: inset 1px 1px 5px grey;
+        }
+
+        body>table {
+            margin-left: 34%;
+            margin-top: 70px;
+        }
+
+        #btn-bottom {
+            position: absolute;
+            top: 160px;
+            left: 42.4%;
+        }
+
+        #btn-top {
+            position: absolute;
+            top: 160px;
+            left: 49.7%;
+        }
+
+        button {
+            background: blue;
+            width: 100px;
+            height: 30px;
+            color: white;
+        }
+
+        table,
+        tr,
+        td {
+            border-spacing: 0;
+        }
+
+        th {
+            text-transform: uppercase;
+        }
+
+        td {
+            border: 1px solid grey;
+            font-size: 20px;
+            padding: 5px;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+
+        thead:nth-child(1) {
+            background-color: lightcoral;
+            height: 30px;
+        }

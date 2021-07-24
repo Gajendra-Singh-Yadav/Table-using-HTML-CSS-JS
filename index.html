@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div>
+        <form id="form1" name="form1" onsubmit="return bottomRow(event)">
+            <div id="bottom-input">
+                <input type="text" name="first" placeholder="first name">
+                <input type="text" name="last" placeholder="last name">
+                <input type="text" name="city" placeholder="city">
+                <input type="text" name="country" placeholder="country">
+            </div>
+            <button id="btn-bottom" type="submit">Add to Bottom</button>
+            <button id="btn-top" type="submit">Add to Top</button>
+        </form>
+    </div>
+
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>S.No.</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+        <script src="script.js"></script>
+    </table>
+
+</body>
+
+</html>
